@@ -1,4 +1,4 @@
-#embedTwitchCSS
+## embedTwitchCSS
 
 ## Synopsis
 
