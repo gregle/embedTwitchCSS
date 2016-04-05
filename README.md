@@ -2,21 +2,21 @@
 
 ## Synopsis
 
-Embedding a twitch stream on an external site with the tiwtch provided code leaves a lot to be desired. This is a simple style sheet that let's you easily drop in a responsive twitch stream & chat while maintaining a proper 16:9 video ratio. In the example I've put the stream and chat next to each other and set the width to be 75% and 25% respectfully. Obviously you should adjust those to your liking, the stream will maintain 16:9 regardless of it's width. I also included a default media query that hides the chat if the screen gets too small. You should adjust that trigger to your needs as well.
+Embedding a twitch stream on an external site with the twitch provided code leaves a lot to be desired. This is a simple style sheet that let's you easily drop in a responsive twitch stream & chat while maintaining a proper 16:9 video ratio. In the example I've put the stream and chat next to each other and set the width to be 75% and 25% respectfully. You should adjust those percentages to your liking, the stream will maintain 16:9 regardless of it's width. I also included a default media query that hides the chat if the screen gets too small. You should adjust that trigger to your needs as well.
 
 an example is up and running here: http://jcrastelli.com/projects/embedTwitchCSS/
 
 ## Code Example
 
-To use as is, **download embedTwitchCSS.css** and link the style sheet to your page 
+To use as is, download **embedTwitchCSS.css** and link the style sheet to your page 
 
-'''
+```html
 <link rel="stylesheet" href="**YOUR-FILE-STRUCTURE**/embedTwitchCSS.css" />
-'''
+```
 
 then put two divs **twitchStream** and **twitchChat** inside the **twitchWrapper** on your page.
 
-'''
+```html
 <div class='twitchWrapper'>
 	<div class='twitchStream'>
 		<iframe src="https://player.twitch.tv/?channel=**YOUR-CHANNEL-NAME**" frameborder="0" scrolling="no"></iframe>
@@ -25,7 +25,7 @@ then put two divs **twitchStream** and **twitchChat** inside the **twitchWrapper
 		<iframe frameborder="0" scrolling="no" src="https://www.twitch.tv/**YOUR-CHANNEL-NAME**/chat"></iframe>
 	</div>
 </div>
-'''
+```
 
 and you should be ready to rock!
 
