@@ -1,0 +1,35 @@
+.twitchStream {
+	position: relative;
+	width:75%;
+}
+
+.twitchStream:before{
+	content: "";
+	display: block;
+	padding-top: 56.25%; /* 16:9 */
+}
+
+.twitchChat{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width: 25%;
+}
+
+.twitchStream iframe, .twitchChat iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 991px) {
+	.twitchStream{
+		width:100%;
+	}
+	.twitchChat{
+		display:none;
+	}
+}
