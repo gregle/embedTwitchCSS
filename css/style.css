@@ -1,11 +1,3 @@
-/* Reset
--------------------------------------------------------------- */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
-table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em;}
-caption,th,td{text-align:left;font-weight:400;}
-blockquote:before,blockquote:after,q:before,q:after{content:"";}
-a img{border:none;}
-
 body{
 	position: relative;
 	background-color: #202020;
@@ -19,3 +11,5 @@ body{
 	transform: translate(-50%, -50%);
 	width:90%;
 }
+
+/* This file is strictly so the demo index page doesn't look so bad. Please ignore! */
