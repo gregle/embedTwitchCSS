@@ -18,12 +18,12 @@ then put two divs **twitchStream** and **twitchChat** inside the **twitchWrapper
 ...
 
 <div class='twitchWrapper'>
-	<div class='twitchStream'>
-		<iframe src="https://player.twitch.tv/?channel=**YOUR-CHANNEL-NAME**" frameborder="0" scrolling="no"></iframe>
-	</div>
-	<div class='twitchChat'>
-		<iframe frameborder="0" scrolling="no" src="https://www.twitch.tv/**YOUR-CHANNEL-NAME**/chat"></iframe>
-	</div>
+  <div class='twitchStream'>
+    <iframe src="https://player.twitch.tv/?channel=**YOUR-CHANNEL-NAME**" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <div class='twitchChat'>
+    <iframe frameborder="0" scrolling="no" src="https://www.twitch.tv/embed/**YOUR-CHANNEL-NAME**/chat"></iframe>
+  </div>
 </div>
 
 ...
